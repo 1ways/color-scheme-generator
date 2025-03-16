@@ -18,37 +18,37 @@
         <div class="head">
             <input class="head__picker" type="color" id="color">
             <div class="select">
-                <div class="select__head">
-                    <p class="select__head-selected"></p>
+                <div class="select__head" tabindex="0">
+                    <p class="select__head-selected">Monochrome</p>
                     <img class="select__head-arrow" src="./images/arrow.svg" alt="select arrow">
                 </div>
                 <div class="select__body">
                     <ul class="select__body-list">
-                        <li class="select__body-item selected">
+                        <li class="select__body-item selected" tabindex="0">
                             <p class="select__body-text">Monochrome</p>
                             <img class="select__body-check" src="./images/check-icon.svg" alt="checkmark">
                         </li>
-                        <li class="select__body-item">
+                        <li class="select__body-item" tabindex="0">
                             <p class="select__body-text">Monochrome-dark</p>
                             <img class="select__body-check" src="./images/check-icon.svg" alt="checkmark">
                         </li>
-                        <li class="select__body-item">
+                        <li class="select__body-item" tabindex="0">
                             <p class="select__body-text">Monochrome-light</p>
                             <img class="select__body-check" src="./images/check-icon.svg" alt="checkmark">
                         </li>
-                        <li class="select__body-item">
+                        <li class="select__body-item" tabindex="0">
                             <p class="select__body-text">Analogic</p>
                             <img class="select__body-check" src="./images/check-icon.svg" alt="checkmark">
                         </li>
-                        <li class="select__body-item">
+                        <li class="select__body-item" tabindex="0">
                             <p class="select__body-text">Complement</p>
                             <img class="select__body-check" src="./images/check-icon.svg" alt="checkmark">
                         </li>
-                        <li class="select__body-item">
+                        <li class="select__body-item" tabindex="0">
                             <p class="select__body-text">Analogic-complement</p>
                             <img class="select__body-check" src="./images/check-icon.svg" alt="checkmark">
                         </li>
-                        <li class="select__body-item">
+                        <li class="select__body-item" tabindex="0">
                             <p class="select__body-text">Triad</p>
                             <img class="select__body-check" src="./images/check-icon.svg" alt="checkmark">
                         </li>
@@ -58,26 +58,7 @@
             <button class="head__btn" id="generate-btn">Get color scheme</button>
         </div>
         <div class="scheme">
-            <div class="scheme__item">
-                <div class="scheme__item-color"></div>
-                <p class="scheme__item-hex">#F55A5A</p>
-            </div>
-            <div class="scheme__item">
-                <div class="scheme__item-color"></div>
-                <p class="scheme__item-hex">#2B283A</p>
-            </div>
-            <div class="scheme__item">
-                <div class="scheme__item-color"></div>
-                <p class="scheme__item-hex">#FBF3AB</p>
-            </div>
-            <div class="scheme__item">
-                <div class="scheme__item-color"></div>
-                <p class="scheme__item-hex">#AAD1B6</p>
-            </div>
-            <div class="scheme__item">
-                <div class="scheme__item-color"></div>
-                <p class="scheme__item-hex">#A626D3</p>
-            </div>
+            <p class="scheme__text">Generate new color scheme!</p>
         </div>
     </div>
     <script src="js/main.js"></script>
